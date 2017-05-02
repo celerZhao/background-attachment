@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		background-attachement:fixed
+	</title>
+	<style type="text/css">
+		.internal--lamina__image__insert {
+		    position: relative;
+		    overflow: hidden;
+		    width: 100%;
+		    background-position: -400px 0;
+		    background-attachment: fixed;
+		    background-repeat: repeat-y;
+		}
+		.internal--lamina__image img {
+		    display: block;
+		    max-width: 100%;
+		    margin: auto 0;
+		    max-height: 300px;
+		}
+		@media (min-width: 900px)
+		.internal--lamina__image {
+		    display: block;
+		    float: right;
+		    width: 50%;
+		    padding-left: 48px;
+		}
+		.internal--lamina__image {
+		    overflow: hidden;
+		    position: relative;
+		    text-align: center;
+
+	        height: 1000px;			
+		    margin-top: 400px;
+		    width: 419px;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="internal--lamina__image" >
+		<div class="internal--lamina__image__insert" style="background-image: url(img/handshake.jpg);">
+		    <img src="img/homepage---hand-lamina--v2.svg" >
+		</div>
+	</div>
+
+</body>
+</html>
